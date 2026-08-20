@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/portal_transparencia_cnep-mcp",
+  "title": "Portal da Transparência: Cadastro Nacional de Empresas Punidas (CNEP)",
+  "description": "Portal da Transparência: Cadastro Nacional de Empresas Punidas (CNEP), official-source lookup. Platf",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/portal_transparencia_cnep-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_portal_transparencia_cnep"
+    }
+  ]
+}
